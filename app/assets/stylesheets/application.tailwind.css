@@ -39,3 +39,7 @@
     @apply px-3 py-2 mt-3 font-medium text-red-500 rounded-lg bg-red-50;
   }
 }
+
+ul#tags li {
+  @apply flex items-center my-2 gap-x-2 animate-fade-in;
+}
