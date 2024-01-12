@@ -41,5 +41,5 @@
 }
 
 ul#tags li {
-  @apply flex items-center my-2 gap-x-2 animate-fade-in;
+  @apply flex items-center my-2 gap-x-2;
 }

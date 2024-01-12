@@ -7,7 +7,8 @@ export default class extends Controller {
 
   remove(e) {
     e.preventDefault();
+    this.elementTarget.classList.remove("animate-fade-in");
     this.elementTarget.classList.add("animate-fade-out");
-    setTimeout(() => this.elementTarget.remove(), 200);
+    setTimeout(() => this.elementTarget.remove(), 300);
   }
 }
